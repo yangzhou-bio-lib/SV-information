@@ -5,7 +5,9 @@ These are the scripts used for the project of ‘Assembly of a pan-genome for gl
 The script joint genotype for the provided multiple BAM files according to the deletion list.
 The BAM file path list of each line is a BAM file path and a bed file containing deletion breakpoint was provided, the bed file that contains deletion breakpoints only needs to provide the chromosome numbers, START positions, and END positions.  
 In this script, the classification type of each DELETION site was detected for each BAM file. Finally, the detection results of multiple BAM files were merged to generate a VCF file.
-#### optional arguments:
+### Rely on third-party libraries
+pysam (0.16.0.1); pandas (1.1.4); numpy (1.19.4)
+### optional arguments:
 -h, --help            show this help message and exit  
 -b, --bamfile_list    List file of input BAM files. Must be indexed.  
 -l, --deletion_list   Bed file of DELETION SV.   
