@@ -12,4 +12,4 @@ chr1_483202_491758,CM008168.2:483102-483337,CM008168.2:491647-491859
 We look for evidence of slipt reads in the original bam file and output the eligible reads to the `${sample}.${a}.splitters.reads.comm` file
 
 ## 2. Identify_breakpoint.R
-Based on the result file obtained from the `smooth_break_point.sh` script, further determine the location of the SV breakpoint.
+Based on the result file obtained from the `smooth_break_point.sh` script, further determine the location of the SV breakpoint and get the SV map.
