@@ -1,6 +1,6 @@
 #!/bin/bash
 
-samplelist=""
+samplelist="" # List file of bam.
 helpmode=0
 
 
