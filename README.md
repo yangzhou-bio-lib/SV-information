@@ -11,7 +11,7 @@ Finally, using the bam files and the deletion list file as input files, the obta
 ## 1. smooth_break_point.sh
 ### Input files
 Input files need to be prepared as shown below:
-`Common SV regions, Upstream breakpoint regions detected by different software, Downstream breakpoint regions detected by different software`
+`Common SV regions, Upstream breakpoint regions detected by different software, Downstream breakpoint regions detected by different software`  
 Like this:
 ```
 chr1_383181_391717,CM008168.2:383081-383294,CM008168.2:391608-391818
