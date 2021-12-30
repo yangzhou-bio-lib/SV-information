@@ -1,5 +1,5 @@
 # script-SV-genotyping
-These are the scripts used for the project of ‘Assembly of a pan-genome for global cattle reveals missing sequence and novel structural variation, providing new insights into their diversity and evolution history’.
+These are the scripts used for the project of cattle SV catalogues.
 
 #  The description of workflow
 The Deletion list needs to be constructed. We used the results of four software, retaining 50bp to 50 Mbp, at least two software-supported SV (overlapping 80%).  
