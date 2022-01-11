@@ -22,7 +22,7 @@ We look for evidence of deletion in the original bam file and output the request
 The step2 is applied using step2_del_boundary_identification.R based on the result file obtained from step1. The deletion exact boundaries and marker sequences were identified in this step.
 
 # 2. Genotyping
-## step3
+## 2.1 step3
 The step3_GGDTRS.py script joints genotype for the provided multiple BAM files according to the deletion list.
 A .txt file containing the paths of all BAM files and a bed file containing deletion breakpoint were needed to prepeare in this step. The bed file contains deletion breakpoint information: chromosome, START position, and END position. The detection results of multiple BAM files were merged to generate a VCF file.
 ### Rely on third-party libraries
